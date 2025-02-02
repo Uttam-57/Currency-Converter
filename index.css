@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.container {
+
+    background-color: white;
+    width: 55vh;
+    min-height: 45vh;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+form {
+    margin: 3rem 0 2rem 0;
+}
+
+form,
+select,
+button,
+input {
+    width: 100%;
+    border: none;
+    border-radius: 0.75rem;
+    outline: none;
+}
+
+form input {
+    font-size: 1rem;
+    height: 1.5rem;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    padding: 16px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+img {
+    max-width: 3rem;
+}
+
+i {
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selecct-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 0.56rem;
+    border: 1px solid lightgray;
+}
+
+.msg {
+    margin: 3rem 0 2rem 0;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+
+.exchange {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 2rem 0 1rem 0;
+    background-color: rgb(118, 231, 77);
+}
